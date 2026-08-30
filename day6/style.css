@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.stats-card, .form-card, .controls-card, .table-card, .categories-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 120px;
+}
+
+.form-group input {
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 6px 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.control-group {
+    margin-bottom: 10px;
+}
+
+.control-group input, .control-group select {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+.category-group {
+    margin-bottom: 15px;
+}
+
+.category-group h4 {
+    margin: 0 0 5px 0;
+    color: #2980b9;
+}
+
+.category-group ul {
+    margin: 0;
+    padding-left: 20px;
+}
